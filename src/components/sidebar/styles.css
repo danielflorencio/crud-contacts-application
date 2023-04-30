@@ -1,0 +1,7 @@
+.link{
+    color: black !important;
+}
+.link:visited{
+    color: black !important; 
+    text-decoration: none !important    ; 
+}

@@ -1,0 +1,25 @@
+.contact-item{
+    width: 400px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: solid;
+    border-color: #333;
+    border-radius: 12px;
+    margin-bottom: 1.2rem;
+    
+}
+.icons{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+.icon{
+    cursor: pointer;
+}
+
+@media (max-width: 420px) {
+    .contact-item{
+        width: 90%;
+    }
+}
